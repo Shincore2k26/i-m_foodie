@@ -1,4 +1,3 @@
-# i-m_foodie
 # 🍔 Foodie Web
 
 Foodie Web is an online food delivery platform designed to make ordering food easy, fast, and convenient. Users can explore a variety of restaurants, browse menus, and order their favorite meals from the comfort of their home.

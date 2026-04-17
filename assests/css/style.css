@@ -1,0 +1,92 @@
+/* AUTH PAGE */
+
+.auth-container {
+    height: 100vh;
+    background: linear-gradient(135deg, #ff5a5f, #ff9966);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    animation: fadeIn 0.8s ease;
+}
+
+.auth-card h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.auth-card p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.auth-card form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-card input,
+.auth-card select {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+    transition: 0.3s;
+}
+
+.auth-card input:focus,
+.auth-card select:focus {
+    border-color: #ff5a5f;
+    box-shadow: 0 0 5px rgba(255,90,95,0.3);
+}
+
+.auth-card button {
+    padding: 12px;
+    border: none;
+    background: #ff5a5f;
+    color: white;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.auth-card button:hover {
+    background: #ff2e33;
+    transform: translateY(-2px);
+}
+
+.switch-auth {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.switch-auth a {
+    color: #ff5a5f;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.switch-auth a:hover {
+    text-decoration: underline;
+}
+.password-field {
+    position: relative;
+}
+
+.password-field span {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    cursor: pointer;
+}
